@@ -23,14 +23,21 @@ JWT_KEY=your_jwt_secret_key
 ```
 
 ### 4️⃣ Start the Server
+First, navigate to the `src` directory:
 ```bash
-npm run dev
+cd src
 ```
 
-or
+Then run the server using either:
 
 ```bash
-npm start
+node server.js
+```
+
+or (if using nodemon):
+
+```bash
+nodemon server.js
 ```
 
 Server will run at:
